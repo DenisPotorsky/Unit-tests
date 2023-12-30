@@ -9,6 +9,7 @@ public class Calculator {
         double purchaseSum = Double.parseDouble(scanner.nextLine());
         System.out.println("Ввдите размер скидки: ");
         double discountAmount = Integer.parseInt(scanner.nextLine());
+        calculateDiscount((int) purchaseSum, (int) discountAmount);
         System.out.println("Сумма цены со скидкой: " + calculate(purchaseSum, discountAmount));
     }
 
@@ -16,7 +17,7 @@ public class Calculator {
         double discountSum = purchaseSum * discountAmount / 100;
         return purchaseSum - discountSum;
     }
-    public static double calculateDiscount(double purchaseAmount, int discountAmount) {
+    public static int calculateDiscount(int purchaseAmount, int discountAmount) {
         if (discountAmount < 0) {
             throw new ArithmeticException("Скидка не может быть меньше нуля");
         } else if (discountAmount > 100) {
