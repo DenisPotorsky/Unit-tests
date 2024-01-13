@@ -53,5 +53,27 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/mockito-core-5.8.0-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES />
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/libs/byte-buddy-agent-1.14.11-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="objenesis-3.3" level="project" />
+    <orderEntry type="library" name="mockito-core-5.0.0" level="project" />
+    <orderEntry type="library" name="byte-buddy-1.12.22" level="project" />
+    <orderEntry type="library" name="byte-buddy-agent-1.12.22" level="project" />
   </component>
 </module>

@@ -2,6 +2,7 @@
   <library name="assertj-core-3.23.1">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libs/assertj-core-3.23.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mockito-core-5.8.0-javadoc.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
